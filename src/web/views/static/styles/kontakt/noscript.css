@@ -1,0 +1,40 @@
+.main__spinner {
+    display: none;
+}
+#dialog-link {
+    display: none;
+}
+#dialog {
+    display: none;
+}
+.regulamin-NS p:first-child {
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.regulamin-NS p:last-child {
+    font-size: 1.2vw;
+}
+.main__checkbox[required] {
+    display: none;
+}
+span {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+    .regulamin-NS p:first-child {
+        font-size: 2.5vw;
+    }
+    .regulamin-NS p:last-child {
+        font-size: 2.2vw;
+    }
+}
+@media screen and (max-width: 375px) {
+    .regulamin-NS p:first-child {
+        font-size: 4vw;
+    }
+    .regulamin-NS p:last-child {
+        font-size: 3.7vw;
+    }
+}
